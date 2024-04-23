@@ -100,3 +100,4 @@ __MACOSX
 # Node modules
 node_modules/
 
+*.pper
