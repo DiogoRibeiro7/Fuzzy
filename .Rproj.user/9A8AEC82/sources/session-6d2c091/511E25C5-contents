@@ -15,11 +15,11 @@ combined_data <- data.frame()
 for (sheet in sheet_names) {
   # Read the sheet
   sheet_data <- read_excel(file_path, sheet = sheet)
-  
+
   # Add a new column 'Year' with the sheet name (assuming the sheet name is the year)
   # If the sheet name is not exactly the year or you need to extract it, adjust this accordingly
   sheet_data$Year <- sheet
-  
+
   # Combine the data from this sheet with the previously combined data
   combined_data <- bind_rows(combined_data, sheet_data)
 }
