@@ -1,4 +1,102 @@
-.Rproj.user
+# Ignore specific R related file extensions
+*.Rhistory
+*.RData
+*.Ruserdata
+*.Rproj.user
+.Rproj.user/
 .Rhistory
 .RData
 .Ruserdata
+
+# Ignore specific files that may contain sensitive information
+.Renviron
+.Renviron.local
+.Rprofile
+.Rprofile.local
+.Rbuildignore
+
+# Ignore package-related directories
+packrat/
+renv/
+renv.lock
+renv/library/
+
+# Ignore compiled binary files or libraries
+*.dll
+*.so
+*.o
+*.a
+*.tar.gz
+*.Rcheck/
+*.Rproj
+*.pdf
+*.html
+*.Rd
+
+# Ignore the files created by byte-compilation
+*.rds
+*.rda
+
+# Ignore all files that are produced as output of R scripts
+*.csv
+*.xlsx
+*.xls
+*.log
+*.sqlite
+*.sav
+*.sas7bdat
+*.rdata
+
+# Plots
+*.jpeg
+*.png
+*.tiff
+*.pdf
+*.jpg
+*.tiff
+*.svg
+
+# R Markdown intermediate and output files
+*.md
+*.html
+*.pdf
+*.docx
+*.Rmd
+*.nb.html
+
+# Bookdown directory
+_book/
+_bookdown_files/
+
+# Environment files
+.Rapp.history
+.Rproj.user/
+
+# knitr and R Markdown output
+figure/
+*_cache/
+*_files/
+
+# Data files (may want to keep track of data separately)
+data/
+!data/.gitkeep  # To track the directory but ignore contents
+
+# Exclude IDE and build files
+*.swp
+*~
+*.bak
+*.txt~
+*.Rproj
+*.swap
+.idea/
+.vscode/
+.DS_Store
+__MACOSX
+
+# Logs
+*.log
+*.out
+
+# Node modules
+node_modules/
+
