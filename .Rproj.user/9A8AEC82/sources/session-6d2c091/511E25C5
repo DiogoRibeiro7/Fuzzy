@@ -1,0 +1,26 @@
+{
+    "id": "511E25C5",
+    "path": "~/work_code/personal/Rprojects/transform_and_load.R",
+    "project_path": null,
+    "type": "r_source",
+    "hash": "0",
+    "contents": "",
+    "dirty": true,
+    "created": 1713806622598.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "31,0",
+        "scrollLine": "11"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1713806622,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1713806792577,
+    "read_only": false,
+    "read_only_alternatives": []
+}
